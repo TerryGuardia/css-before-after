@@ -1,0 +1,19 @@
+/*
+h1::after {
+    content:"#";
+}
+*/
+h1::after {
+    content:"♥";
+}
+h1:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: url(arrow.gif) no-repeat;
+    background-size:contain;
+  }
+main :last-child h1, main :last-child p{
+    margin: 0;
+}
